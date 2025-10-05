@@ -26,9 +26,9 @@
                         <p>Property</p>
                     </a></div>
             </div>
-            <div class="s">
-                <div><a class="ankers" href=""> <p>Login</p></a></div>
-                <div> <a href=""><img src="sell.png" height="100px" alt=""></a></div>
+            <div  style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+<div><a  id="loginLink" class="ankers" href="#">Login</a></div>
+                <div id="sellLink" > <img src="sell.png"  height="100px" alt=""></div>
             </div>
         </nav>
     </header>
@@ -81,60 +81,27 @@
   </div>
   <section>
     <br><br> <br><br>
-<div id="container" style="display: flex; flex-wrap: wrap;">
-  <!-- <div class="card">
- <div class="badge">HOT SALE</div>
- <div class="tilt">
-  <div class="img"><img src="https://images.unsplash.com/photo-1544237526-cae15a57ed1e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwNDY5NjB8&ixlib=rb-4.1.0&q=85" alt="Premium Laptop"></div>
- </div>
- <div class="info">
-  <div class="cat">High-Performance Laptop</div>
-  <h2 class="title">UltraBook Pro X</h2>
-  <p class="desc">Cutting-edge performance with Intel Core i9, 32GB RAM, and a 1TB SSD in a sleek, lightweight design.</p>
-  <div class="feats">
-   <span class="feat">4K Display</span>
-   <span class="feat">16-Hour Battery</span>
-   <span class="feat">Thunderbolt 4</span>
-  </div>
-  <div class="bottom">
-   <div class="price">
-    <span class="old">$2,499</span>
-    <span class="new">$1,999</span>
-   </div>
-   <button class="btn">
-    <span>Add to Cart</span>
-    <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-     <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4"/>
-     <line x1="3" y1="6" x2="21" y2="6"/>
-     <path d="M16 10a4 4 0 01-8 0"/>
-    </svg>
-   </button>
-  </div>
-  <div class="meta">
-   <div class="rating">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="0.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="0.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="0.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="0.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="0.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-    <span class="rcount">245 Reviews</span>
-   </div>
-   <div class="stock">In Stock</div>
-  </div>
- </div>
-</div> -->
+
+<div id="customProducts" class="product-container" style="display: flex; flex-wrap: wrap;">
+
+
+</div>
+
+<div id="product-section">
+  <h2>Recently Added Products</h2>
+  <div id="product-list" class="product-grid"></div>
 </div>
 
   </section>
 
     </main>
     
-<footer style="background:#f8f9fa; padding:40px 20px; font-family:Arial, sans-serif;">
+<footer style="background:#f8f9fa;  font-family:Arial, sans-serif;">
   <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:20px; max-width:1200px; margin:auto; padding: 0; margin: 0;">
     
     
     <div>
-      <h4 style="font-weight:bold; margin-bottom:10px;">Popular Categories</h4>
+      <p style="font-weight:bold; margin-bottom:10px;">Popular Categories</p>
       <p><a href="#" style="text-decoration:none; color:#000;">Cars</a></p>
       <p><a href="#" style="text-decoration:none; color:#000;">Flats for rent</a></p>
       <p><a href="#" style="text-decoration:none; color:#000;">Mobile Phones</a></p>
@@ -142,7 +109,7 @@
     </div>
 
     <div>
-      <h4 style="font-weight:bold; margin-bottom:10px;">Trending Searches</h4>
+      <p style="font-weight:bold; margin-bottom:10px;">Trending Searches</p>
       <p><a href="#" style="text-decoration:none; color:#000;">Bikes</a></p>
       <p><a href="#" style="text-decoration:none; color:#000;">Watches</a></p>
       <p><a href="#" style="text-decoration:none; color:#000;">Books</a></p>
@@ -151,7 +118,7 @@
 
    
     <div>
-      <h4 style="font-weight:bold; margin-bottom:10px;">About Us</h4>
+      <p style="font-weight:bold; margin-bottom:10px;">About Us</p>
       <p><a href="#" style="text-decoration:none; color:#000;">About Dubizzle Group</a></p>
       <p><a href="#" style="text-decoration:none; color:#000;">OLX Blog</a></p>
       <p><a href="#" style="text-decoration:none; color:#000;">Contact Us</a></p>
@@ -160,7 +127,7 @@
 
     
     <div>
-      <h4 style="font-weight:bold; margin-bottom:10px;">OLX</h4>
+      <p style="font-weight:bold; margin-bottom:10px;">OLX</p>
       <p><a href="#" style="text-decoration:none; color:#000;">Help</a></p>
       <p><a href="#" style="text-decoration:none; color:#000;">Sitemap</a></p>
       <p><a href="#" style="text-decoration:none; color:#000;">Terms of use</a></p>
@@ -179,13 +146,56 @@
     </div>
   </div>
 
-  <div style="background-color: rgb(14, 39, 14); text-align:center; margin-top:30px; border-top:1px solid #ccc; padding-top:20px; color:#fffbfb; height: 50px;">
+  <div style="background-color: #002f34; text-align:center; margin-top:30px; border-top:1px solid #ccc; padding-top:20px; color:#fffbfb; height: 50px;">
     Classifieds in Pakistan. © 2006–2025 OLX
   </div>
 </footer>
 
 
+ 
 
+  <!-- Overlay -->
+  <div class="overlay" id="overlay" style="display:none;">
+    <div class="modal" id="modal">
+      <button class="close" id="closeBtn">&times;</button>
+      <div class="modal-content" id="authContent">
+
+        <!-- Login Form -->
+        <div id="loginForm" style="text-align: center;">
+          <h2 style="margin-bottom: 50px; text-align: center;">Login to OLX</h2>
+          <input type="email" id="loginEmail" placeholder="Email" >
+          <input type="password" id="loginPassword" placeholder="Password">
+          <button id="loginBtn">Login</button>
+          <p>New to OLX? <a href="#" id="showSignup">Create an account</a></p>
+        </div>
+
+        <!-- Signup Form -->
+        <div id="signupForm" style="display:none;">
+          <h2>Create Account</h2>
+          <input type="text" id="firstName" placeholder="First Name">
+          <input type="text" id="lastName" placeholder="Last Name">
+          <input type="email" id="signupEmail" placeholder="Email">
+          <input type="password" id="signupPassword" placeholder="Password">
+          <button id="signupBtn">Sign Up</button>
+          <p>Already have an account? <a href="#" id="showLogin">Login</a></p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Sell Page -->
+  <div id="sellPage" style="display:none;">
+    <header class="header">
+      <div class="logo">olx</div>
+      <button id="backBtn">Back</button>
+      <button id="logoutBtn">Logout</button>
+    </header>
+    <main>
+      <h1>Welcome to Sell Page</h1>
+      <p>Here you can list your products!</p>
+    </main>
+  </div>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
